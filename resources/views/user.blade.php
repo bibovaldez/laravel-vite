@@ -28,7 +28,9 @@
             </div>
 
             <div id="navbar" class="flex items-center px-16 py-6 left-0">
-                <img src="../imgs/400164738_340907181921774_3802870888100654010_n-removebg (1).png" alt="logo"
+                {{-- import logo from public folder --}}
+                
+                <img src="{{ asset('logo.png') }}"
                     class="w-20" />
                 <div id="iKurtyente-Text">
                     <h1 class="font-boldglacial font-bold text-green-light text-3xl ml-1 tracking-normal">
